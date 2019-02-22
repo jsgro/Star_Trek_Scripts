@@ -78,6 +78,16 @@ def get_page_links():
 	return(links_list)
 
 
+def convert_raw_to_txt():
+	with open(r'data\all_scripts_raw.json') as f:
+		data = json.load(f)
+
+	with open(r'C:\Users\gbroughton\Portfolio\NLP Web Scraper\data\scripts.txt', 'w+', encoding="utf-8") as file:
+		for series in list(data.keys()):
+			for ep in list(data[series].keys()):
+				file.write(data[str(series)][ep])
+
+
 if __name__ == "__main__":
 	page_links=get_page_links()
 	print("Getting raw scripts...")
@@ -108,4 +118,7 @@ if __name__ == "__main__":
 	
 	with open('data/all_series_lines.json', 'w') as data:
 		json.dump(all_series_lines, data)
+
+	convert_raw_to_txt()
+
 	print("Data saved.")
