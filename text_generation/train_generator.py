@@ -104,3 +104,5 @@ model.fit(x, y,
           batch_size=128,
           epochs=3,
           callbacks=[print_callback])
+
+model.save('models/model.h5')
