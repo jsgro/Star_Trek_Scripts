@@ -13,17 +13,10 @@ from keras.models import Sequential
 from keras.layers import Dense
 from keras.layers import LSTM
 from keras.optimizers import RMSprop
-from keras.utils.data_utils import get_file
 import numpy as np
 import random
 import sys
-import io
 
-#path = get_file(
-#    'scripts.txt',
-#    origin='../data/scripts.txt')
-#with io.open(path, encoding='utf-8') as f:
-#    text = f.read().lower()
 
 text = open(r'..\data\scripts.txt', 'rb').read().decode(encoding='utf-8')
 print('corpus length:', len(text))
