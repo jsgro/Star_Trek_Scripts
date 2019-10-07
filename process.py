@@ -7,9 +7,9 @@ import json
 
 def clean_text(script):
 	script_clean = script.strip()
-	script_clean = script_clean.replace("\n","")
-	script_clean = script_clean.replace("\r"," ")
-	script_clean = script_clean.replace("\r\n","")
+	script_clean = script_clean.replace("\n", "")
+	script_clean = script_clean.replace("\r", " ")
+	script_clean = script_clean.replace("\r\n", "")
 	script_clean = re.sub("([\(\[]).*?([\)\]])", "", script_clean)
 	script_clean = re.sub(r'\.([a-zA-Z])', r'. \1', script_clean) #remove missing whitespace between character lines.
 	script_clean = re.sub(r'\!([a-zA-Z])', r'! \1', script_clean)
