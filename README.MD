@@ -22,3 +22,22 @@ Structure of all_series_lines.json:
 all_series_line={series_name:{episode number:{character:all_lines}}}
 
 e.g. all_series_lines['DS9']['episode 0']['SISKO'] gets all of Sisko's lines from the pilot of DS9.
+
+---
+
+## Added notes:
+
+Source: https://www.kaggle.com/datasets/gjbroughton/start-trek-scripts by GARY BROUGHTON
+
+9 extra notebooks included under "Code" Tab on above source
+
+* [Text Generation-NLP-LSTM](https://www.kaggle.com/code/apoorvchaudhary/text-generation-nlp-lstm)
+* [Character Identifier using Naive Bayes Variations](https://www.kaggle.com/code/eatmygoose/character-identifier-using-naive-bayes-variations)
+* [Visualize Star Trek Characters Sharing Scenes](https://www.kaggle.com/code/kelly713/visualize-star-trek-characters-sharing-scenes)
+* [Who has the most lines in (insert Trek here)](https://www.kaggle.com/code/levimuller/who-has-the-most-lines-in-insert-trek-here)
+* [Who has the most words and lines in DS9?](https://www.kaggle.com/code/zoiaran/who-has-the-most-words-and-lines-in-ds9/data)
+* [Picard - Make it So](https://www.kaggle.com/code/abaskingrootwalla/picard-make-it-so)
+* [Who has the most lines in TNG?](https://www.kaggle.com/code/ucffool/who-has-the-most-lines-in-tng)
+* [Who has the most lines in DS9 ?](https://www.kaggle.com/code/gjbroughton/who-has-the-most-lines-in-ds9)
+* [Starter: Star Trek Scripts 931c8144-7](https://www.kaggle.com/code/kerneler/starter-star-trek-scripts-931c8144-7)
+
